@@ -4,7 +4,10 @@ import './Footer.css'
 function Footer(props){
     return(
         <footer className='footer'>
-            rodapé
+            <span> 
+                Desenvolvido com <i className="fa fa-heart text-danger"/> por
+                <strong><span className= "text-info"> Vinicius Oliveira da Silva</span></strong>.
+            </span>
         </footer>
     )
 }

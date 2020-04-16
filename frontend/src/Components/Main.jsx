@@ -5,7 +5,7 @@ import './Main.css'
 function Main(props){
     return(
         <React.Fragment>
-            <Header/>
+            <Header {...props}/>
             <main className="content"> Conteudo </main>
         </React.Fragment>
     )
